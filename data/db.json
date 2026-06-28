@@ -1,0 +1,132 @@
+{
+  "rooms": [
+    {
+      "id": "luxury-glass-suite",
+      "name": "Glass Suite",
+      "description": "Perched on the highest ridge, our Signature Glass Suite offers an unobstructed 180-degree view of the mist-shrouded valleys. Features a private fireplace, stone bath, and glass floor sections that make you feel like you are floating above the pines.",
+      "price": 380,
+      "capacity": 2,
+      "beds": "1 King Bed",
+      "size": "550 sq ft",
+      "view": "Valley & Mountain View",
+      "amenities": [
+        "Cozy Stone Fireplace",
+        "Private Heated Balcony",
+        "Infinity Pool Access",
+        "Espresso Machine",
+        "Complimentary Wine Bottle",
+        "High-speed Wi-Fi"
+      ],
+      "images": [
+        "/images/room_luxury_suite.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": "mist-view-deluxe",
+      "name": "Misty View Deluxe",
+      "description": "Designed with warm timber and local stone accents, the Deluxe room features a beautiful wooden balcony looking out to the pine forests. Watch the morning mist rise right from your bed.",
+      "price": 240,
+      "capacity": 3,
+      "beds": "1 King Bed + 1 Day Bed",
+      "size": "420 sq ft",
+      "view": "Forest & Mist View",
+      "amenities": [
+        "Spacious Balcony",
+        "Soaking Tub",
+        "Mini-bar",
+        "Coffee/Tea Maker",
+        "Smart TV",
+        "High-speed Wi-Fi"
+      ],
+      "images": [
+        "/images/room_deluxe.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": "pine-forest-cabin",
+      "name": "Pine Forest Cabin",
+      "description": "A secluded wooden cottage set deep in the cedar and pine groves. Perfect for couples or solo travelers seeking complete privacy. It features rustic furniture, a skylight for stargazing, and an outdoor firepit.",
+      "price": 180,
+      "capacity": 2,
+      "beds": "1 Queen Bed",
+      "size": "320 sq ft",
+      "view": "Secluded Pine Forest",
+      "amenities": [
+        "Outdoor Firepit",
+        "Skylight for Stargazing",
+        "Rustic Wooden Decor",
+        "Veranda",
+        "Coffee Station",
+        "High-speed Wi-Fi"
+      ],
+      "images": [
+        "/images/resort_spa.jpg"
+      ],
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "B-1001",
+      "roomId": "luxury-glass-suite",
+      "guestName": "Sarah Jenkins",
+      "guestEmail": "sarah.j@example.com",
+      "guestPhone": "+1 (555) 123-4567",
+      "checkIn": "2026-07-10",
+      "checkOut": "2026-07-13",
+      "guestsCount": 2,
+      "totalPrice": 1276.8,
+      "status": "Cancelled",
+      "createdAt": "2026-06-25T10:30:00.000Z"
+    },
+    {
+      "id": "B-1002",
+      "roomId": "mist-view-deluxe",
+      "guestName": "David Miller",
+      "guestEmail": "david.m@example.com",
+      "guestPhone": "+1 (555) 987-6543",
+      "checkIn": "2026-07-15",
+      "checkOut": "2026-07-17",
+      "guestsCount": 3,
+      "totalPrice": 537.6,
+      "status": "Pending",
+      "createdAt": "2026-06-27T14:15:00.000Z"
+    },
+    {
+      "id": "B-1791",
+      "roomId": "pine-forest-cabin",
+      "guestName": "Naman Telawane",
+      "guestEmail": "ntelawane84@gmail.com",
+      "guestPhone": "+917499154755",
+      "checkIn": "2026-06-28",
+      "checkOut": "2026-06-29",
+      "guestsCount": 2,
+      "totalPrice": 201.6,
+      "status": "Cancelled",
+      "createdAt": "2026-06-28T08:54:02.326Z"
+    }
+  ],
+  "settings": {
+    "resortName": "Misty Heights Resort",
+    "tagline": "A Serene Sanctuary Floating Above the Clouds",
+    "contactNumber": "+91 98765 43210",
+    "contactEmail": "stay@mistyheightsresort.com",
+    "address": "Ridge Road, Cloud Valley, Hillside District, HP, India",
+    "promoText": "Opening Offer: Use code MISTY20 for 20% off all rooms this season!",
+    "hasPromo": true,
+    "taxRate": 0.12,
+    "extraBedPrice": 50
+  },
+  "inquiries": [
+    {
+      "id": "INQ-2001",
+      "name": "Robert Dowson",
+      "email": "robert@outlook.com",
+      "message": "Hi, I am planning a corporate retreat for 15 people in mid-August. Do you offer custom packages and group discounts?",
+      "createdAt": "2026-06-27T08:00:00.000Z",
+      "status": "Unread"
+    }
+  ]
+}
